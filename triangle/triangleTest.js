@@ -13,5 +13,5 @@ QUnit.test("isosceles triangle has two equal sides", function( assert ) {
 	assert.equal(triangle.isIsosceles(-1,-1,5),false,"-1,-1,5 is isosceles") ;
 });
 QUnit.test("scalene triangle has three different sides", function( assert ) {
-	assert.equal(triangle.isScalene(3,2,4),true,"2,2,4 is scalene") ;
+	assert.equal(triangle.isScalene(3,2,4),true,"3,2,4 is scalene") ;
 });
